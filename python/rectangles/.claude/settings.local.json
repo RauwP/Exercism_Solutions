@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m pytest rectangles_test.py -v)",
+      "Bash(python3 -m pytest rectangles_test.py -v -k \"test_one_rectangle or test_1x1_square\")"
+    ]
+  }
+}
